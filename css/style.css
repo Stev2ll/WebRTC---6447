@@ -1,0 +1,48 @@
+::-webkit-scrollbar{
+	background-color: black;
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+/*DAR EL ANCHO COMPLETO A LA PAGINA*/
+body{
+    width: 100vh;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.212)),
+    url(https://source.unsplash.com/m3hn2Kn5Bns);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 15px;
+    font: 1em sans-serif;
+} 
+h1{
+    color: white;
+}
+main video{
+    position: relative;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+    border: 20px;
+    box-shadow: 0 0 15px #ddd;
+    border-radius: 15px;
+}
